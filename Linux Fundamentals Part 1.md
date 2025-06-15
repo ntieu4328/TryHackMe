@@ -5,7 +5,7 @@
 
 Teaches the basics of the Linux OS.
 
-Commands:
+Commands: <br>
 echo - prints text <br>
 whoami - shows current username <br>
 ls - list files/directories <br>
