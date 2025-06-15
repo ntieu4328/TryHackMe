@@ -1,0 +1,2 @@
+example scan:
+nmap -Pn -sX -p1-999
