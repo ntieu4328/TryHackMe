@@ -17,6 +17,6 @@ The project consists of different lessons and challenges completed on [TryHackMe
 
 <h2>Learning</h2>
 
--NMAP
+-[NMAP](https://github.com/ntieu4328/TryHackMe/blob/main/NMAP)
 
 <h2>Challenges</h2>
