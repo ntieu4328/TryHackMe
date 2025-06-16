@@ -17,7 +17,9 @@ The project consists of different lessons and challenges completed on [TryHackMe
 
 <h2>Learning</h2>
 
--[NMAP](https://github.com/ntieu4328/TryHackMe/blob/main/NMAP) <br>
--[Linux Fundamentals Part 1](https://github.com/ntieu4328/TryHackMe/blob/main/Linux%20Fundamentals%20Part%201.md)
+- [NMAP](https://github.com/ntieu4328/TryHackMe/blob/main/NMAP) <br>
+- [Linux Fundamentals Part 1](https://github.com/ntieu4328/TryHackMe/blob/main/Linux%20Fundamentals%20Part%201.md)
 
 <h2>Challenges</h2>
+
+- [Advent of Cyber 2024](https://github.com/ntieu4328/TryHackMe/blob/main/Advent%20of%20Cyber%202024.md)
