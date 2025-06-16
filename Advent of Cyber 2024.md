@@ -5,13 +5,16 @@
 
 Challenges delivered like an advent calendar with a storyline.<br>
 
-Tools:<br>
+<h3>Tools:</h3>
+
 Elastic - cybersecurity threat detection, investigation, and response <br>
 * learned how to filter for specific events and information <br>
+* can use KQL (Kibana Query Language) to search <br>
 
 CyberChef - simple and complex data manipulation <br>
 * decode encoded data <br>
 
-Commands:<br>
+<h3>Commands:</h3>
+
 file - determines type of file and its data <br>
 exiftool - software used for reading, writing, and editing metadata <br>
