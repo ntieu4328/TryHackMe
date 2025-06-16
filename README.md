@@ -15,6 +15,8 @@ The project consists of different lessons and challenges completed on [TryHackMe
 
 6. Connect to lesson machine
 
+7. If given credentials can [RDP](https://github.com/ntieu4328/TryHackMe/blob/main/How%20to%20RDP%20Into%20Machine.md)
+
 <h2>Learning</h2>
 
 - [NMAP](https://github.com/ntieu4328/TryHackMe/blob/main/NMAP) <br>
