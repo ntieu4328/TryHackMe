@@ -27,12 +27,12 @@ Atomic Red - collection of red team test cases that can be executed to test for 
 Event Viewer - Windows tool that displays information about significant events happening on computer <br>
 
 Burp Suite - Web application security testing and penetration testing. Intercepting, analyzing and modifying network traffic <br>
-Set up intercepting and modifying website requests: <br>
-* Settings -> Allow Brup's browser to run without a sandbox
-* Proxy -> Intercept -> Open Browser
-* In browser -> browse website
-* Proxy -> HTTP History
-* Find request to exploit -> send to repeater -> edit request -> Send
+* Set up intercepting and modifying website requests: <br>
+  * Settings -> Allow Brup's browser to run without a sandbox
+  * Proxy -> Intercept -> Open Browser
+  * In browser -> browse website
+  * Proxy -> HTTP History
+  * Find request to exploit -> send to repeater -> edit request -> Send
 
 <h2>Languages:</h2>
 
