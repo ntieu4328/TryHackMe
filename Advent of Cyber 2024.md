@@ -83,3 +83,4 @@ Check if machine is a sandbox environment:
 * Can make script to automate
 
 Obfuscation - encode code that executes a vulnerability using base64 or other encoding
+* Be careful of FLOSS
