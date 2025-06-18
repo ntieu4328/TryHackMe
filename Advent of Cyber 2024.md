@@ -45,7 +45,8 @@ CloudWatch - Monitors applications at multiple levels in AWS environment
 CloudTrail - Monitors actions in AWS environment
 
 JQ - transform and filter JSON data to be more understandable
-* ``
+* `jq '(what to filter by)' file`
+* can pipe to filter more
 
 <h2>Languages:</h2>
 
