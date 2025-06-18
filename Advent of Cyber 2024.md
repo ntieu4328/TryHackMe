@@ -33,11 +33,24 @@ Burp Suite - Web application security testing and penetration testing. Intercept
   * In browser -> browse website
   * Proxy -> HTTP History
   * Find request to exploit -> send to repeater -> edit request -> Send
+ 
+YARA - Tool used to identify and classify malware based on patterns in its code. Done by writing custom rules to scan for specific characteristics like particular strings, file headers, or behaviours.
+
+Floss - Tool that extracts obfuscated strings from program
+* `floss.exe (file path)`
+* can pipe results to a txt file
+
+CloudWatch - Monitors applications at multiple levels in AWS environment
+
+CloudTrail - Monitors actions in AWS environment
+
+JQ - transform and filter JSON data to be more understandable
+* ``
 
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
-* uses tags to label and organise information
+* Uses tags to label and organise information
 * DTD (Document Type Definition) - set of rules that defines the structure of an XML document
 * Entities - insertion of large chunks of data referencing internal or external files
   * ex: `<!DOCTYPE foo [ <!ENTITY ext SYSTEM "http://normal-website.com" > ]>`
@@ -50,11 +63,22 @@ Kali Linux:
 * file - determines the type of file and its data
 * exiftool - software used for reading, writing, and editing metadata
 
+PowerShell:
+* Select-String - find string in file (PowerShell grep equivalent)
+* `Select-String -Path "(file path)" '(string)'`
+
 <h2>Vulnerabilities:</h2>
 
 XXE (XML External Entity) - Takes advantage of how XML handles external entities
-* point external entity to malicious source or code
+* Point external entity to malicious source or code
 * Intercept requests with Burp Suite
 * In browser -> browse website
 * Proxy -> HTTP History
 * Find request to exploit -> send to repeater -> edit request -> Send
+
+Check if machine is a sandbox environment:
+* Check if it has `C:\Program Files\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ProgramFilesDir`
+* If missing, machine is usually on sandbox or virtual environment
+* Can make script to automate
+
+Obfuscation - encode code that executes a vulnerability using base64 or other encoding
