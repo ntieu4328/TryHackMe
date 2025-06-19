@@ -94,7 +94,9 @@ Obfuscation - encode code that executes a vulnerability using base64 or other en
 Reverse Shell - Target initiates connection to attacking machine
 ![create reverse shell payload using msfvenom](https://github.com/user-attachments/assets/aaabf49a-661d-49b7-bf64-e6b505b08884)
 
-
 Malicious Document that uses macro:
 ![Malicious Macro Document](https://github.com/user-attachments/assets/99abee96-92ca-4d68-b979-2d85d6b9ed14)
+
+Listen for incoming connections to establish exploit:
+![Listen for incoming connections to establish exploit](https://github.com/user-attachments/assets/8d877b1c-bb98-4d60-9e12-1e82c6eac25e)
 
