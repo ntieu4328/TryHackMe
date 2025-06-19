@@ -48,6 +48,10 @@ JQ - transform and filter JSON data to be more understandable
 * `jq '(what to filter by)' file`
 * can pipe to filter more
 
+msfvenom - generate payload and encoding it to evade detection
+
+nc - reads and write to network conection using TCP or UDP (network listener)
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
@@ -66,7 +70,7 @@ Kali Linux:
 
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
-* `Select-String -Path "(file path)" '(string)'`
+  * `Select-String -Path "(file path)" '(string)'`
 
 <h2>Vulnerabilities:</h2>
 
@@ -84,3 +88,5 @@ Check if machine is a sandbox environment:
 
 Obfuscation - encode code that executes a vulnerability using base64 or other encoding
 * Be careful of FLOSS
+
+Reverse Shell - Target initiates connection to attacking machine
