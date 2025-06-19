@@ -52,6 +52,8 @@ msfvenom - generate payload and encoding it to evade detection
 
 nc - reads and write to network conection using TCP or UDP (network listener)
 
+Risk Assessment - identify potential problems before they happen
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
@@ -90,4 +92,9 @@ Obfuscation - encode code that executes a vulnerability using base64 or other en
 * Be careful of FLOSS
 
 Reverse Shell - Target initiates connection to attacking machine
-* Steps on how it's done
+![create reverse shell payload using msfvenom](https://github.com/user-attachments/assets/aaabf49a-661d-49b7-bf64-e6b505b08884)
+
+
+Malicious Document that uses macro:
+![Malicious Macro Document](https://github.com/user-attachments/assets/99abee96-92ca-4d68-b979-2d85d6b9ed14)
+
