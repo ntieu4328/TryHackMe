@@ -90,3 +90,4 @@ Obfuscation - encode code that executes a vulnerability using base64 or other en
 * Be careful of FLOSS
 
 Reverse Shell - Target initiates connection to attacking machine
+* Steps on how it's done
