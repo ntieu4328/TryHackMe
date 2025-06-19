@@ -9,4 +9,6 @@ Install xfreerdp:
 
 2. sudo apt install (freerdp version you want)
 
-3. xfreerdp /u:(username) /p:(password) /v:(machine IP)
+RDP into Machine:
+
+* xfreerdp /u:(username) /p:(password) /v:(machine IP)
