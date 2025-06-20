@@ -31,8 +31,13 @@ Burp Suite - Web application security testing and penetration testing. Intercept
   * Settings -> Allow Brup's browser to run without a sandbox
   * Proxy -> Intercept -> Open Browser
   * In browser -> browse website
+  * If website doesn't load change settings -> proxy -> request interception rule (all check) -> response interception rule (all check)
   * Proxy -> HTTP History
   * Find request to exploit -> send to repeater -> edit request -> Send
+  * If you want to repeat exploit multiple times:
+    * in request code box press ctrl+r how many times you want to execute exploit
+    * click + icon and create tab group
+    * send group sequence(one at a time) or parallel (at same time)
  
 YARA - Tool used to identify and classify malware based on patterns in its code. Done by writing custom rules to scan for specific characteristics like particular strings, file headers, or behaviours.
 
@@ -119,3 +124,9 @@ Wifi Attacks:
   * using aireplay-ng to send deauthentication packets to disconnect wifi connection
   * capture reconnection 4-way handshake using airodump-ng that is being run
   * sudo aireplay-ng -0 1 -a (device/interface) -c (BSSID of device connected to access point)
+* sudo aircrack-ng -a 2 -b (device/interface) -w /home/glitch/rockyou.txt output*cap - crack WPA/WPA2 passphrase using dictionary attack (using rockyou.txt word list)
+* stop airodump-ng on first terminal
+* wpa_passphrase MalwareM_AP (Pass Key) > config
+* sudo wpa_supplicant -B -c config -i wlan2
+
+Timing Attack Race Conditions:
