@@ -70,6 +70,7 @@ Kali Linux:
 * file - determines the type of file and its data
 * exiftool - software used for reading, writing, and editing metadata
 
+
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
   * `Select-String -Path "(file path)" '(string)'`
@@ -77,7 +78,7 @@ PowerShell:
 <h2>Vulnerabilities:</h2>
 
 XXE (XML External Entity) - Takes advantage of how XML handles external entities
-* Point external entity to malicious source or code
+* GOAL: Point external entity to malicious source or code
 * Intercept requests with Burp Suite
 * In browser -> browse website
 * Proxy -> HTTP History
@@ -100,3 +101,17 @@ Malicious Document that uses macro:
 Listen for incoming connections to establish exploit:
 ![Listen for incoming connections to establish exploit](https://github.com/user-attachments/assets/8d877b1c-bb98-4d60-9e12-1e82c6eac25e)
 
+Wifi Attacks:
+  * sudo iw dev - shows wireless devices and their configuration
+  * sudo iw dev (device/interface) scan - scan nearby Wifi networks using the device
+  * sudo iw dev (device/interface) set type monitor - change device to monitor mode
+    * turn device/interface off before doing this
+    * turn device/interface on after
+  * sudo ip link set dev (device/interface) up - turn device on
+  * sudo ip link set dev (device/interface) down - turn device off
+  * sudo iw dev (device/interface) info - shows status of device
+  * sudo airodump-ng (device/interface) - shows list of nearby wifi networks and important details like encryption type
+    * CAN QUITE WHEN FIND DESIRED NETWORK
+  * sudo airodump-ng -c (# channels to listen to) --bssid (bssid of network) -w output-file (device/interface) - targets specific network channel to capture traffic and save it files that start with output-file\
+    * KEEP RUNNING
+  * Attack device connected to access point (BSSID under STATION section)
