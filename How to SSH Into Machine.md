@@ -1,2 +1,2 @@
 SSH (Secure Shell) -  Log onto remote systems on a command line interface
-* asdf
+* `ssh (username)@(IP)`
