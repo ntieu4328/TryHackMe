@@ -62,6 +62,8 @@ Risk Assessment - identify potential problems before they happen
 Group Policy Management Editor - allows administrators to enforce policies across domain
 * open with windows + r -> gpmc.msc
 
+Azure
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
