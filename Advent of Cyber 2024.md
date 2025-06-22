@@ -129,4 +129,17 @@ Wifi Attacks:
 * wpa_passphrase MalwareM_AP (Pass Key) > config
 * sudo wpa_supplicant -B -c config -i wlan2
 
-Timing Attack Race Conditions:
+Local DNS Override:
+* Add website to/etc/hosts
+* Doesn't alert external DNS servers
+* Also may show that website uses self-signed certificate
+* `echo "(Website IP) (website)" >> /etc/hosts`
+
+Man in the Middle Attack on website using self-signed certificate:
+* launch burp suite
+* change settings
+* don't need burp suite browser
+* add ip of website and port to listen to on proxy listeners
+* set own machine as gateway (other things not taught in module)
+* run custom script that simulates user requests to website (have to use `chmod +x (script file)` on file before executing)
+* burp suite will capture new user requests and shown as long as script and burp suite is running
