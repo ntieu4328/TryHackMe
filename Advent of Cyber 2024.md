@@ -64,6 +64,8 @@ Group Policy Management Editor - allows administrators to enforce policies acros
 
 Azure
 
+Friga
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
