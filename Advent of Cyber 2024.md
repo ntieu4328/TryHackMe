@@ -66,6 +66,18 @@ Azure
 
 Friga
 
+PEStudio - software to investigate potentially malicious files and extract information from them without execution
+* footprints - sections represent a memory space with different content of the executable
+* indicators - shows potential indicators like URLs or other suspicious attributes
+
+ILSpy - decompiles code so it's readable
+
+Kubernetes - container orchestration system
+* creates containers for microservices to balance the traffic coming in
+
+Minikube - tool that runs a single node Kubernetes cluster on local machine for development and testing purposes
+* `minikube start` - start minikube
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
