@@ -78,6 +78,9 @@ Kubernetes - container orchestration system
 Minikube - tool that runs a single node Kubernetes cluster on local machine for development and testing purposes
 * `minikube start` - start minikube
 
+pdftotext - convet pdf file to text file
+* pdftotext (pdf file) -upw (Password)
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
@@ -98,6 +101,9 @@ Kali Linux:
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
   * `Select-String -Path "(file path)" '(string)'`
+
+Run a .sh file:
+* ./(.sh file)
 
 <h2>Vulnerabilities:</h2>
 
@@ -162,3 +168,6 @@ Man in the Middle Attack on website using self-signed certificate:
 * set own machine as gateway (other things not taught in module)
 * run custom script that simulates user requests to website (have to use `chmod +x (script file)` on file before executing)
 * burp suite will capture new user requests and shown as long as script and burp suite is running
+
+Cracking hased passwords:
+* use tool `python hash-id.py` to identify possible hasing techniques used
