@@ -7,12 +7,14 @@ Challenges delivered like an advent calendar with a storyline.<br>
 
 <h2>Tools:</h2>
 
-Elastic - cybersecurity threat detection, investigation, and response <br>
-* learned how to filter for specific events and information <br>
-* can use KQL (Kibana Query Language) to search <br>
+Elastic - cybersecurity threat detection, investigation, and response
+* learned how to filter for specific events and information
+* can use KQL (Kibana Query Language) to search
 
-CyberChef - simple and complex data manipulation <br>
-* decode encoded data <br>
+CyberChef - simple and complex data manipulation
+* decode encoded data
+
+CrackStation - Password Hash Cracker
 
 Atomic Red - collection of red team test cases that can be executed to test for detection gaps <br>
 * runs on powershell
@@ -176,6 +178,9 @@ Cracking hashed passwords:
 
 Where passwords held:
 * usually held C:\Windows\System32\config\sam
+
+Some Passwords for different websites may be default:
+* just search up website's default passwords
 
 Broken Authentication:
 * sometimes there's already user registered ex: (arthur)
