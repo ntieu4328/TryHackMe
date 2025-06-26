@@ -187,6 +187,10 @@ Broken Authentication:
 * can register user with space beforehand ex: ( arthur)
 * maybe gain access to arthur account
 
+XSS
+* Input code into text box
+* Can use JavaScript, HTML, etc
+
 Metasploit:
 * msfconsole - starts metasploit framework
 * search (vulnerability code) - searches for exploitation code
