@@ -169,5 +169,20 @@ Man in the Middle Attack on website using self-signed certificate:
 * run custom script that simulates user requests to website (have to use `chmod +x (script file)` on file before executing)
 * burp suite will capture new user requests and shown as long as script and burp suite is running
 
-Cracking hased passwords:
+Cracking hashed passwords:
 * use tool `python hash-id.py` to identify possible hasing techniques used
+
+Where passwords held:
+* usually held C:\Windows\System32\config\sam
+
+Metasploit:
+* msfconsole - starts metasploit framework
+* search (vulnerability code) - searches for exploitation code
+* use (# in list) - use exploitation
+* set (setting) (what you want)
+* ctrl + z - run session in background
+* show sessions - shows sessions
+* sessions (id) - choose session
+* ps - lists processes
+* migrate (pid) - migrate to process
+* hashdump - dump passwords on machine if you have correct privileges
