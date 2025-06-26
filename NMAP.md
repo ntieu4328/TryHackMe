@@ -9,3 +9,5 @@ NMAP (Network Mapper) tool is used for network discovery. Used to find devices o
 
 example scan:
 nmap --script=(script name) -Pn -sX -p1-999 (IP address)
+
+* --script vuln - scans vulnerabilities
