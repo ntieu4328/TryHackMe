@@ -96,6 +96,8 @@ XML (Extensible Markup Language) - language used to transport and store data
 Kali Linux:
 * file - determines the type of file and its data
 * exiftool - software used for reading, writing, and editing metadata
+* cat etc/passwd - see what user's shell is set as
+* lsb-release -a - shows what version of linux OS running
 
 
 PowerShell:
@@ -174,6 +176,11 @@ Cracking hashed passwords:
 
 Where passwords held:
 * usually held C:\Windows\System32\config\sam
+
+Broken Authentication:
+* sometimes there's already user registered ex: (arthur)
+* can register user with space beforehand ex: ( arthur)
+* maybe gain access to arthur account
 
 Metasploit:
 * msfconsole - starts metasploit framework
