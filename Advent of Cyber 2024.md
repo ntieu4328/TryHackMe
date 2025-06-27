@@ -83,6 +83,8 @@ Minikube - tool that runs a single node Kubernetes cluster on local machine for 
 pdftotext - convet pdf file to text file
 * pdftotext (pdf file) -upw (Password)
 
+exploit-db - public vulnerability database
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
@@ -100,7 +102,7 @@ Kali Linux:
 * exiftool - software used for reading, writing, and editing metadata
 * cat etc/passwd - see what user's shell is set as
 * lsb-release -a - shows what version of linux OS running
-
+* nano (file name) - create and edit text files
 
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
