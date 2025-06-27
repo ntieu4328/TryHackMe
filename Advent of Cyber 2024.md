@@ -85,6 +85,15 @@ pdftotext - convet pdf file to text file
 
 exploit-db - public vulnerability database
 
+enum4linux - enumerate SMB shares on linuc and windows systems
+* enum4linux (options) (IP)
+
+smbclient - allows user to access and manage files and resources on SMB server
+* help - shows all commands that can be used
+* get (file) - Downloads file
+* cd (folder)\ - go into folder
+* chmod (option) (file) - change permissions of files and directories
+
 <h2>Languages:</h2>
 
 XML (Extensible Markup Language) - language used to transport and store data
