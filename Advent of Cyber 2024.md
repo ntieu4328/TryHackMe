@@ -202,6 +202,10 @@ XSS
 * Input code into text box
 * Can use JavaScript, HTML, etc
 
+Hydra
+* open source tool used for network login cracking through brute-force attacks
+* can be used with rockyou.txt
+
 Metasploit:
 * msfconsole - starts metasploit framework
 * search (vulnerability code) - searches for exploitation code
