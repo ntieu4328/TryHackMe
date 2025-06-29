@@ -12,3 +12,4 @@ nmap --script=(script name) -Pn -sX -p1-999 (IP address)
 
 * --script vuln - scans vulnerabilities
 * -p- - scans all ports
+* -T(0-5) - timing template. 0-5 slowest to fastest. Can speed up nmap.
