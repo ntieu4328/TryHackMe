@@ -208,12 +208,22 @@ Hydra
 
 Metasploit:
 * msfconsole - starts metasploit framework
-* search (vulnerability code) - searches for exploitation code
-* use (# in list) - use exploitation
-* set (setting) (what you want)
+* search (vulnerability code) - searches for exploitation code and puts in a list
+* use (# in list or exploit path) - use exploitation
+  * puts you in the context of the exploit (specific settings for that exploit)
+  * show options - shows context of exploit
+  * show  (module type (auxiliary, payload, exploit, etc)) - shows chow context of module
+  * info - shows more information
+  * back - exit context
+* set (parameter name) (value) - set parameters
+  * if not set as a global variable parameter settings will change if you change module being used
+* setg (parameter name) (value) - set global parameters
+* unset - clear parameter value (can use unset all)
+* unsetg - unset global parameters (can use unsetg all)
+* exploit - launch module
 * ctrl + z - run session in background
 * show sessions - shows sessions
-* sessions (id) - choose session
+* sessions -i (id) - choose session
 * ps - lists processes
 * migrate (pid) - migrate to process
 * hashdump - dump passwords on machine if you have correct privileges
