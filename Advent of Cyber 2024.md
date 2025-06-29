@@ -224,6 +224,10 @@ Hydra
 * open source tool used for network login cracking through brute-force attacks
 * can be used with rockyou.txt
 
+Robots.txt
+* used to give instructions to web robots about locations within the web site that robots are allowed
+* can be used to identify locations that are mentioned in file
+
 Metasploit:
 * msfconsole - starts metasploit framework
 * search (vulnerability code) - searches for exploitation code and puts in a list
