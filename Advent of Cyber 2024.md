@@ -57,7 +57,7 @@ JQ - transform and filter JSON data to be more understandable
 
 msfvenom - generate payload and encoding it to evade detection
 
-nc - reads and write to network conection using TCP or UDP (network listener)
+nc - reads and write to network conection using TCP or UDP (network listener). Can be used to connect a reverse shell.
 
 Risk Assessment - identify potential problems before they happen
 
@@ -88,6 +88,8 @@ exploit-db - public vulnerability database
 enum4linux - enumerate SMB shares on linuc and windows systems
 * enum4linux (options) (IP)
 
+pentestmonkey.net - used to look for privilege escalation vectors on window systems. ex: php-reverse-shell
+
 smbclient - allows user to access and manage files and resources on SMB server
 * help - shows all commands that can be used
 * get (file) - Downloads file
@@ -103,7 +105,6 @@ XML (Extensible Markup Language) - language used to transport and store data
   * ex: `<!DOCTYPE foo [ <!ENTITY ext SYSTEM "http://normal-website.com" > ]>`
   * reference entity: `&ext;`
 
-
 <h2>Commands:</h2>
 
 Kali Linux:
@@ -113,6 +114,9 @@ Kali Linux:
 * lsb-release -a - shows what version of linux OS running
 * nano (file name) - create and edit text files
 * ./(.sh file) - run a .sh file
+* git clone - download an existing Git repository
+* cp (original file name) (new file name) - creates duplicate of file. Can be used to change file type (ex: .php -> .php5)
+* curl http://(ip) > (desired file) - transfer data from a website to a desired file
 
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
@@ -228,6 +232,15 @@ Robots.txt
 * used to give instructions to web robots about locations within the web site that robots are allowed
 * can be used to identify locations that are mentioned in file
 
+GoBuster:
+* tool used to brute-force websites
+* ex: `gobuster dir -u http://(ip) -w (wordlist path)`
+* wordlist path - /usr/share/wordlists
+
+If you are able to edit .php file on website:
+* substitute code with pentestmonkey reverse shell code. In reverse shell code edit ip and port
+* start netcat
+* visit page to run code and nc will show you shell
 Metasploit:
 * msfconsole - starts metasploit framework
 * search (vulnerability code) - searches for exploitation code and puts in a list
