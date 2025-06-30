@@ -16,13 +16,3 @@ The project consists of different lessons and challenges completed on [TryHackMe
 6. Connect to lesson machine
 
 7. If given credentials can [RDP](https://github.com/ntieu4328/TryHackMe/blob/main/How%20to%20RDP%20Into%20Machine.md) (for graphical interface) or [SSH](https://github.com/ntieu4328/TryHackMe/blob/main/How%20to%20SSH%20Into%20Machine.md) (for command line interface)
-
-
-<h2>Learning</h2>
-
-- [NMAP](https://github.com/ntieu4328/TryHackMe/blob/main/NMAP.md)
-- [Linux Fundamentals Part 1](https://github.com/ntieu4328/TryHackMe/blob/main/Linux%20Fundamentals%20Part%201.md)
-
-<h2>Challenges</h2>
-
-- [Advent of Cyber 2024](https://github.com/ntieu4328/TryHackMe/blob/main/Advent%20of%20Cyber%202024.md)
