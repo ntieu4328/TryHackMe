@@ -11,7 +11,7 @@ Install xfreerdp:
 
 3. If using freerdp3-x11 have to install freerdp3-shadow-x11
 
-4. If doesn't open sudo killall openvpn
+4. For TryHackMe: If doesn't open -> `sudo killall openvpn`
 
 RDP into Machine:
 
