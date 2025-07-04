@@ -11,4 +11,4 @@ Install xfreerdp:
 
 RDP into Machine:
 * xfreerdp3 /u:(username) /p:(password) /v:(machine IP)
-* can specify domain ex: (Domain)/(Username)
+* can specify domain ex: (Domain)\(Username)
